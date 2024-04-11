@@ -1,0 +1,750 @@
+*
+{
+padding: 0;
+margin: 0;
+}
+ul
+{
+list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body
+{
+font-family: "Roboto", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+.color
+{
+color:rgb(213,40,76);
+}
+.home
+{
+background-image:url(../images/hero\ img.jpg);
+height: 100vh;
+background-size: cover;
+}
+.overlay
+{
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.8);
+position: relative;
+}
+.header
+{
+overflow: hidden;
+
+}
+.nav
+{
+width: 96%;
+background-color: transparent;
+margin: 15px auto 0;
+position:fixed;
+}
+.link 
+{
+float: left;
+width: 40%;
+padding-left: 20px;
+margin: 0 0 0 45px ;
+}
+.link a
+{
+font-size: 24px;
+font-weight: bold;
+}
+.menu_bar
+{
+float: right;
+width: 50%;
+margin-right: 33px
+}
+.menu_bar li 
+{
+display:inline-block;
+margin-left: 8px;
+padding: 0 10px;
+}
+li a{
+color: white;
+font-size: 16;
+font-weight: 300;
+padding: 20px 0;
+transition:color 0.8s;
+}
+.text_one
+{
+text-align: center;
+position: relative;
+top: 38%;
+}
+.text_one .one
+{
+font-weight:600;
+font-size: 19px;
+padding-bottom: 10px;
+}
+li a:hover
+{
+color:rgb(213,40,76);
+}
+.text_one h4 ,
+.text_one h3
+{
+    color: white;
+}
+.text_one #smith{
+font-size: 65px;
+font-weight: bold;
+padding-bottom: 10px;
+}
+.animation{
+font-size: 26px;
+font-weight: 200;
+}
+
+/* section two */
+.container
+{
+width: 70%;
+padding: 100px 0 ;
+margin: auto;
+overflow: hidden;   
+}
+.image
+{
+width: 35%;
+position: relative;
+float: left;
+
+}
+.image img
+{
+    width: 100%;
+display: block;
+
+}
+.over
+{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color:rgba(0, 0, 0, 0.57) ;
+right: 100%;
+bottom: 100%;
+visibility: hidden;
+transition:background-color 0.8s 3s ease-in-out;
+}
+.image:hover .over
+{
+position: absolute;
+right: 0;
+bottom: 0; 
+visibility: visible;
+}
+.ul
+{
+position: absolute;
+top:50%;
+left: 25%;
+}
+.over li
+{
+display: inline-block;
+margin-left: 20px;
+}
+.text 
+{ 
+width: 55%;
+float: left;
+text-align: left;
+margin-left: 70px; 
+}
+.text .after{
+font-size: 28px;
+padding-left: 6px;
+font-weight: 600;
+line-height: 22px;
+margin-bottom: 30px;
+color: #333;
+}
+
+.after::before {
+content:"l";
+color:rgb(213,40,76);
+position: relative;
+right:7px; 
+}
+.text p{
+padding-bottom: 25px;
+margin-bottom: 25px;
+border-bottom:1px dashed #999999;
+}
+.profile-about .p_a
+{
+display:table;
+}
+.profile-about .p_a li{
+    color: #555555;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 25px;
+font-size: 15px;
+}
+.profile-about .p_a li span
+{
+    font-weight: bold;
+}
+.profile-about .p_a li:nth-child(2n+1){
+    float: left;
+    width: 40%;
+}
+.profile-about .p_a li:nth-child(2n) {
+    float: left;
+    width: 60%;
+}
+.profile-about .p_a .gmail
+{
+color: black;
+}
+.download-cv
+{
+margin-top: 20px;
+}
+.download-cv a
+{
+ color: white;
+padding: 12px 20px;
+background-color:#ff305b; 
+border-radius: 4px;
+margin-left: 13px;
+}
+.download-cv a:hover 
+{
+ background: #EC2403;
+}
+.clear
+{
+clear: both;
+}
+/* section Our Services */
+.Our_Services
+{
+padding: 100px 0;
+background: #f1f1f1;
+}
+.row
+{
+    text-align: center;
+    
+}
+.row h2
+{
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 30px;
+    padding-bottom: 10px;
+    color: #333;
+}
+.menu_row
+{
+position: relative;
+left: 46%;
+bottom: -11px;
+height: 1px;
+width: 116px;
+background-color: rgb(213,40,76);
+}
+
+.menu_row::after{
+content: "";
+position: absolute;
+height: 1px;
+width: 65px;
+background-color: rgb(213,40,76);
+left: 24%;
+bottom: -7px;
+}
+.menu_row::before{
+content: "";
+position: absolute;
+height: 1px;
+width: 65px;
+background-color: rgb(213, 40, 76);
+left: 24%;
+bottom: 6px
+} 
+.colum
+{
+
+padding: 40px 15px;
+width: 95%;
+margin:15px auto 0;
+overflow: hidden;
+}
+.on,
+.tw,
+.thre,
+.fou
+{
+width: 19%;
+text-align: center;
+float: left;
+margin-left: 64px;
+transition:background-color 0.8s;
+padding: 30px 0 ;
+}
+.on i,
+.tw i,
+.thre i,
+.fou i
+{
+    color:rgb(213,40,76);
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.on h3,
+.tw h3,
+.thre h3,
+.fou h3
+{
+    padding-bottom: 15px;
+}
+.on:hover,
+.tw:hover,
+.thre:hover,
+.fou:hover
+{
+background-color: white;
+}
+
+/* section Our Portfolio */
+.Our_Portfolio
+{
+padding: 100px 0;
+}
+.arry
+{
+padding: 40px 0 45px  0;
+}
+.arry button
+{
+background:none;
+border: none;
+margin-left: 30px;
+}
+.arry button a{
+color:black;
+font-weight: 600;
+}
+#c_first
+{
+    color:rgb(213,40,76); 
+}
+.portfolio
+{
+    width: 80%;
+    margin: auto;
+}
+.row_one
+{
+overflow: hidden;
+margin-bottom: 20px;
+}
+.col_first
+{
+width:30%;
+position: relative;
+float: left;
+margin-left: 20px;
+}
+.col_first img
+{
+    width:100%;
+}
+.col_first_overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.57) ;
+    right: 100%;
+    bottom: 100%;
+    visibility: hidden;
+    transition:background-color 0.1s ease-in-out;
+}
+.col_first:hover .col_first_overlay
+{
+    right: 0;
+    bottom: 0; 
+visibility: visible;
+}
+.col_first_overlay i
+{
+position: absolute;
+bottom: 9px;
+right: 13px;
+color:rgb(213,40,76); 
+}
+/* section Projects */
+.area
+{
+padding: 100px 0 ;
+background: #f1f1f1;
+}
+.container_team
+{
+margin: auto;
+overflow: hidden;
+width: 80%;
+}
+.Team_members{
+text-align: center;
+width:20%;
+float: left;
+margin-left: 35px;
+}
+.icon i
+{
+    color:rgb(213,40,76); 
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.Team_members h4
+{
+    padding-bottom: 10px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.Team_members h5
+{
+    color: #555555;
+    font-size: 14px;
+}
+
+/* section Client's Feedback */
+.Feedback
+{
+padding: 0 0 50px 0;
+}
+
+.menu_row_Feedback
+{
+position: relative;
+left: 43%;
+bottom: -11px;
+height: 1px;
+width: 154px;
+background-color: rgb(213, 40, 76);
+}
+
+.menu_row_Feedback::after{
+content: "";
+position: absolute;
+height: 1px;
+width: 65px;
+background-color: rgb(213, 40, 76);
+left: 27%;
+bottom: -7px;
+}
+
+.menu_row_Feedback::before{
+content: "";
+position: absolute;
+height: 1px;
+width: 65px;
+background-color: rgb(213, 40, 76);
+left: 27%;
+bottom: 6px;
+}
+
+.item_active
+{
+width: 70%; 
+background: #f1f1f1;
+margin: auto;
+margin-top: 38px;
+overflow: hidden;
+}
+.item
+{
+margin: auto;
+overflow: hidden;
+padding: 53px;
+width: 100%;
+position: relative;
+}
+.item_image
+{
+float: left;
+width: 25%;
+z-index: 999;
+}
+.w3r-triangle {
+  
+    position: absolute;
+    top: -30px;
+    left: -167px;
+    transform: rotateZ(132deg);
+    width: 160px;
+    height: 45px;
+    border-top: 128px solid rgb(213, 40, 76);
+    border-left: 76px solid transparent;
+    border-right: 114px solid transparent;
+
+  }
+.item_image img
+{
+width: 60%;
+border-radius: 50%;
+position: relative;
+z-index: 2;
+}
+.item_count
+{
+float: left;
+width: 65%;
+position: relative;
+margin-left: -36px;
+}
+.item_count h3 
+{
+font-size: 23px;
+margin-bottom: 5px;
+}
+.item_count p
+{
+font-size: 16px;
+font-style: italic;
+font-weight: 300;
+}
+.location
+{
+padding-bottom: 7px;
+}
+.item_count .location a{
+color: #777777;
+font-size: 13px;
+padding-top: 20px;
+}
+.review i
+{
+margin: 20px 0 0 0;
+color: #f1c30d;
+font-size: 13px;
+}
+.dot
+{
+width: 21px;
+height: 9px;
+background-color: rgb(213, 40, 76);
+position: relative;
+left: 50%;
+border-radius: 9px;
+top: 5px;
+}
+.dot::after{
+content: "";
+width: 8px;
+height: 8px;
+background-color: transparent;
+border: 1px solid rgb(213,40,76);
+position: absolute;
+left: 117%;
+border-radius: 60px;
+top: -1px;
+}
+/* section Our Blog */
+.Our_Blog
+{
+background: #f1f1f1;
+}
+.menu_row_Blog
+{
+position: relative;
+left: 44%;
+bottom: -11px;
+height: 1px;
+width: 116px;
+background-color: rgb(213,40,76);
+}
+
+.menu_row_Blog::after{
+content: "";
+position: absolute;
+height: 1px;
+width: 65px;
+background-color: rgb(213,40,76);
+left: 24%;
+bottom: -7px;
+}
+.menu_row_Blog::before{
+content: "";
+position: absolute;
+height: 1px;
+width: 65px;
+background-color: rgb(213, 40, 76);
+left: 24%;
+bottom: 6px
+} 
+.row_blog
+{
+width: 97%;
+margin: auto;
+overflow: hidden;
+margin-top: 40px;
+}
+.row_first
+{
+width: 32%;
+float: left;
+background: white;
+margin-left: 10px;
+}
+.images img
+{
+width: 100%;
+}
+.post_content{
+padding: 10px;
+}
+.post_content .data
+{
+padding-top: 6px 0 5px;
+margin-bottom: 10px;
+font-size: 14px;
+font-weight: 300;
+}
+.post_content h4 {
+    margin-bottom: 10px;
+}
+.post_content h4 a{
+color: #333;
+font-size: 18px;
+transition:color 0.5s ease-in ;
+}
+.post_content h4:hover a
+{
+color: rgb(213, 40, 76);
+}
+.post_content p
+{
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    transition:color 0.5s ease-in ;
+}
+a#more {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+#more:hover
+{
+color: rgb(213, 40, 76);
+}
+/* section Contact Us */
+.Contact_Us
+{
+padding: 50px 0;
+}
+.containers{
+width: 50%;
+margin: 46px auto;
+overflow: hidden;
+}
+.name{
+float: left;
+width: 46%;
+}
+.email{
+float: left;
+width: 48.5%;
+margin-left: 30px;
+}
+.name input
+{
+width: 100%;
+} 
+.email input
+{
+    width: 100%;
+}
+.containers input
+{
+padding: 10px 0;
+border: 1px solid #ccc;
+border-radius:4px;
+}
+.containers .tex:hover,
+.containers .emai:hover,
+.text_area textarea:hover
+{
+border: 1px solid #a94442;
+}
+.subject
+{
+margin-top: 20px;
+}
+.subject input
+{
+width: 99%;
+}
+.text_area
+{
+margin-top: 20px; 
+resize: both;
+}
+input:focus{
+
+border: none;
+}
+.text_area textarea
+{
+border: 1px solid #ccc;
+border-radius:4px;
+}
+.submit input
+{
+margin-top: 20px;
+background-color: rgb(213,40,76);
+padding: 10px;
+border:none;
+color: white;
+text-transform: uppercase;
+}
+.submit .sub:hover
+{
+background: #EC2403;
+}
+/* section footer-area */
+.footer-area
+{
+background: #333333;
+padding: 50px 0;
+text-align: center;
+}
+.soical_icon li{
+display: inline-block;
+padding-left: 15px;
+color: white;
+}
+.soical_icon li:hover i
+{
+color:rgb(213,40,76);
+}
+.copy{
+    padding-top: 20px;
+}
+.copy p{
+color: white;
+font-weight: 600;
+}
+.copy p span
+{
+color:rgb(213,40,76) ;
+}
